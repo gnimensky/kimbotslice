@@ -128,7 +128,7 @@ const Index = () => {
           />
           <div className="text-center">
             <p>© 2025 Kimbot Slice | The Digital Twin Experience</p>
-            <p className="text-xs mt-2">Not affiliated with the estate of Kimbo Slice</p>
+            <p className="text-xs mt-2">kimbotslice.com All rights reserved</p>
           </div>
         </div>
       </footer>
