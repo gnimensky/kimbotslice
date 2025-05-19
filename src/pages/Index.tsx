@@ -109,7 +109,7 @@ const Index = () => {
                     <div className="absolute -bottom-2 -right-2 w-full h-full bg-gold rounded-lg -z-10"></div>
                   </div>
                   <p className="text-zinc-400 group-hover:text-lime-green transition-colors">
-                    Throw down with Kimbot now!
+                    Throw down with Kimbot Slice!
                   </p>
                 </a>
               </div>
