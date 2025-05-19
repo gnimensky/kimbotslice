@@ -23,7 +23,7 @@ const Index = () => {
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2">
             <img 
-              src="/kimbot-3.png" 
+              src="/lovable-uploads/bcccc60c-aeb9-4e21-9eb7-b06b0d50648e.png" 
               alt="Kimbot Slice Logo" 
               className="h-12 w-12 object-cover rounded-full border-2 border-lime-green" 
             />
