@@ -124,7 +124,7 @@ const Index = () => {
           <img 
             src="/lovable-uploads/bcccc60c-aeb9-4e21-9eb7-b06b0d50648e.png" 
             alt="Kimbot Slice Logo" 
-            className="h-8 w-8 object-cover rounded-full border-2 border-lime-green" 
+            className="h-10 w-10 object-cover rounded-full border-2 border-lime-green" 
           />
           <div className="text-center">
             <p>© 2025 Kimbot Slice | The Digital Twin Experience</p>
