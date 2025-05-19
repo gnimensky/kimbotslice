@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
@@ -43,8 +44,8 @@ const Index = () => {
       
       {/* Main Content */}
       <main className="flex-1">
-        {/* Hero Section */}
-        <section className="py-10 md:py-16 bg-gradient-to-b from-black to-zinc-900 overflow-hidden">
+        {/* Hero Section - Removed bottom padding completely */}
+        <section className="pt-10 pb-0 md:pt-16 md:pb-0 bg-gradient-to-b from-black to-zinc-900 overflow-hidden">
           <div className="container mx-auto px-4 text-center flex flex-col items-center">
             <div className="mb-8 relative">
               <div className="absolute -z-10 w-80 h-80 bg-lime-green/30 rounded-full blur-3xl opacity-40 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
@@ -63,10 +64,10 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Video Section - Significantly reduced spacing */}
-        <section className="pt-2 pb-8 md:py-6 bg-zinc-900 overflow-hidden">
+        {/* Video Section - Minimal spacing */}
+        <section className="pt-0 pb-8 md:py-4 bg-zinc-900 overflow-hidden">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 inline-block border-b-4 border-lime-green pb-2">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 inline-block border-b-4 border-lime-green pb-2">
               WATCH KIMBOT IN ACTION
             </h2>
             <div className="mx-auto max-w-4xl aspect-video rounded-lg shadow-2xl overflow-hidden border-4 border-lime-green animate-pulse-glow">
