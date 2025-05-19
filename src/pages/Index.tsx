@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
@@ -51,7 +52,7 @@ const Index = () => {
               <img 
                 src="/lovable-uploads/98f4f6c5-2e17-475b-afe1-69cb4d686e72.png" 
                 alt="Kimbot Slice Character" 
-                className="h-auto max-h-80 mx-auto animate-float relative z-10" 
+                className="h-auto max-h-60 mx-auto animate-float relative z-10 rounded-3xl" 
               />
             </div>
             <h2 className="text-4xl md:text-6xl font-bold leading-tight mb-4 text-white">
