@@ -64,10 +64,10 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Video Section */}
-        <section className="py-10 md:py-16 bg-zinc-900 overflow-hidden">
+        {/* Video Section - Reduced top padding */}
+        <section className="pt-5 pb-10 md:py-12 bg-zinc-900 overflow-hidden">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-10 inline-block border-b-4 border-lime-green pb-2">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 inline-block border-b-4 border-lime-green pb-2">
               WATCH KIMBOT IN ACTION
             </h2>
             <div className="mx-auto max-w-4xl aspect-video rounded-lg shadow-2xl overflow-hidden border-4 border-lime-green animate-pulse-glow">
