@@ -90,7 +90,7 @@ const Index = () => {
               <img 
                 src="/lovable-uploads/0042327b-f023-4a0d-888f-aa32f450d938.png" 
                 alt="Kimbot Slice Ready to Chat" 
-                className="h-auto max-h-60 md:max-h-80 animate-float"
+                className="h-auto max-h-45 md:max-h-60 animate-float rounded-3xl"
               />
               <div className="flex flex-col items-center">
                 <h2 className="text-3xl md:text-5xl font-bold mb-6">
