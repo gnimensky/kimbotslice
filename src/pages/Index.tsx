@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
@@ -41,7 +40,7 @@ const Index = () => {
           </a>
         </div>
       </header>
-
+      
       {/* Main Content */}
       <main className="flex-1">
         {/* Hero Section */}
@@ -88,7 +87,7 @@ const Index = () => {
             
             <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
               <img 
-                src="/kimbot-2.png" 
+                src="/lovable-uploads/0042327b-f023-4a0d-888f-aa32f450d938.png" 
                 alt="Kimbot Slice Ready to Chat" 
                 className="h-auto max-h-60 md:max-h-80 animate-float"
               />
