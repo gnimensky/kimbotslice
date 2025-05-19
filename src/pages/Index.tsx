@@ -22,11 +22,6 @@ const Index = () => {
       <header className="py-6 px-4 md:px-8 bg-black border-b border-lime-green/30">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <img 
-              src="/lovable-uploads/bcccc60c-aeb9-4e21-9eb7-b06b0d50648e.png" 
-              alt="Kimbot Slice Logo" 
-              className="h-12 w-12 object-cover rounded-full border-2 border-lime-green" 
-            />
             <h1 className="text-2xl md:text-3xl font-bold tracking-tight">
               <span className="text-lime-green">KIMBOT</span> SLICE
             </h1>
@@ -120,9 +115,16 @@ const Index = () => {
       
       {/* Footer */}
       <footer className="py-6 px-4 md:px-8 bg-zinc-900 border-t border-lime-green/30 text-zinc-500">
-        <div className="container mx-auto text-center">
-          <p>© 2025 Kimbot Slice | The Digital Twin Experience</p>
-          <p className="text-xs mt-2">Not affiliated with the estate of Kimbo Slice</p>
+        <div className="container mx-auto flex items-center justify-center gap-3">
+          <img 
+            src="/lovable-uploads/bcccc60c-aeb9-4e21-9eb7-b06b0d50648e.png" 
+            alt="Kimbot Slice Logo" 
+            className="h-8 w-8 object-cover rounded-full border-2 border-lime-green" 
+          />
+          <div className="text-center">
+            <p>© 2025 Kimbot Slice | The Digital Twin Experience</p>
+            <p className="text-xs mt-2">Not affiliated with the estate of Kimbo Slice</p>
+          </div>
         </div>
       </footer>
     </div>
